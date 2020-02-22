@@ -6,12 +6,11 @@ Right now, I'm actually just setting up the build environment ;)
 
 # Links
 
-## Espruino stuff
+* [Espruino API docs](https://www.espruino.com/Reference)
+* [Official (?) TTGO board description](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
+* [Display datasheet](https://www.newhavendisplay.com/appnotes/datasheets/LCDs/ST7789V.pdf)
 
-## TTGO display stuff
+# Further reference
 
-* https://github.com/Xinyuan-LilyGO/TTGO-T-Display
-
-## ESP32 stuff
-
-* https://github.com/loboris/ESP32_TFT_library
+* [Inspiration: ST7565](https://www.espruino.com/ST7565)
+* [ESP32 TFT Library](https://github.com/loboris/ESP32_TFT_library)
