@@ -1,0 +1,30 @@
+{
+  "name": "espruino-st7789v",
+  "version": "1.0.0",
+  "description": "Build for the SST789V Espruino module.",
+  "main": "index.js",
+  "scripts": {
+    "write": "espruino -p /dev/tty.SLAB_USBtoUART -m -b 115200 index.js",
+    "watch": "espruino -p /dev/tty.SLAB_USBtoUART -m -b 115200 index.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defaude/espruino-st7789v.git"
+  },
+  "keywords": [
+    "Espruino",
+    "ST7789V"
+  ],
+  "author": {
+    "name": "Roland Hummel",
+    "email": "defaude@gmail.com"
+  },
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/defaude/espruino-st7789v/issues"
+  },
+  "homepage": "https://github.com/defaude/espruino-st7789v#readme",
+  "devDependencies": {
+    "espruino": "^0.1.31"
+  }
+}
